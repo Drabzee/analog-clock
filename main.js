@@ -3,7 +3,7 @@ const minuteHandDom = document.querySelector('.clock .minute');
 const hourHandDom = document.querySelector('.clock .hour');
 const digitalDom = document.querySelector('.clock .digital');
 
-const tickAudio = new Audio('/tick.mp3');
+const tickAudio = new Audio('./tick.mp3');
 
 const zeroPad = (num) => ('0' + num).slice(-2);
 let prevSec = null;
